@@ -1,0 +1,68 @@
+/* default */
+* {
+  margin: 0;
+  padding: 0;
+  border: 1px solid black; /*remove after creating*/
+}
+ul {
+  display: inherit;
+  width: inherit;
+}
+li {
+  list-style: none;
+}
+/* end defualt */
+
+/* displays */
+.container {
+  display: flex;
+}
+.nav {
+  flex: 1;
+}
+.navbar {
+  flex: 1;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.navlink {
+}
+
+/* end displays */
+
+/* positions */
+.row {
+  flex: 1;
+  flex-direction: row;
+}
+.col {
+  flex: 1;
+  flex-direction: column;
+}
+.left {
+
+}
+
+.right {
+
+}
+
+.center {
+
+}
+/* end positions */
+
+/* sizing */
+.col-16 {
+ flex: 16;
+}
+.col-8 {
+  flex: 8;
+}
+.col-4 {
+  flex: 4;
+}
+.col-1 {
+  flex: 1;
+}
+/* end sizing */
